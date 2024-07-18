@@ -21,8 +21,8 @@ import { Button } from "./Button";
                 />
                 <div className='flex flex-col text-left py-4 w-full'>
                     <div className='flex flex-row justify-between'>
-                        <h1 className='pb-4 mt-3'>{heading}</h1>
-                        <button className="p-[7px] relative overflow-hidden rounded-full w-[110px]">
+                        <h1 className='pb-4 mt-3 flex-grow truncate' style={{maxWidth: 'calc(100% - 120px)'}}>{heading}</h1>
+                        <button className="p-[7px] relative overflow-hidden rounded-full w-[125px] ml-4">
                             <div className="absolute inset-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full z-0" />
                             <div className="px-2 py-2 bg-black rounded-full relative group transition duration-200 text-white hover:bg-transparent z-10">
                                 {category}
