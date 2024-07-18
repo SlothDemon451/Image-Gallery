@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="button-group">
+      <div className="flex justify-center flex-wrap">
         {categories.map((category, index) => (
           <Button 
             key={index}
